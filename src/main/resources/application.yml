@@ -1,0 +1,7 @@
+app:
+  openai:
+    api:
+      key: ${OPENAI_API_KEY}
+      promptSistema: "Você é um chatbot de atendimento a clientes de um ecommerce e deve responder apenas perguntas relacionadas com o ecommerce"
+    assistant:
+      id: ${ASSISTANT_ID}
